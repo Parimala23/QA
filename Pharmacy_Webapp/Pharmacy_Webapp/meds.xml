@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<Suite name="TRxADE">
+   <listners>
+   <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   
+   
+   </listners>
+   <test name="pharmacysihnup">
+    <classes>
+    <class name="PharmacyDashBoard.PSignup">
+    </class>
+    
+    </classes>
+ 
+   </test>
+</Suite>
